@@ -5,7 +5,7 @@ from collections import defaultdict
 from itertools import combinations
 
 # READ DATA
-data = pd.read_excel(r"E:\VS Code stuff\Machine Learning Workspace\dm_task\Horizontal_Format.xlsx")
+data = pd.read_excel(r"data\Horizontal_Format.xlsx")
 
 min_support = float(input("input the min support: "))
 min_conf = float(input("input the min confidence: "))
